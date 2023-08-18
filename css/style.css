@@ -1,0 +1,28 @@
+@font-face {
+    font-family: elegantFont;
+    src: url(AhganiryaPersonalUse-Yznaj.ttf);
+ }
+
+body {
+    font-family: elegantFont;
+    background: #C01F2F;
+}
+
+.title {
+    transition: all 0.5s ease-in-out;
+}
+
+.title:hover {
+    transition: all 0.5s ease-in-out;
+    text-decoration: dotted !important;
+    transform: translateY(-5px);
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+}
